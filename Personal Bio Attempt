@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Bio</title>
+  <link rel="stylesheet" href="style.css" />
+ </head>
+ <body>
+   <div class="container">
+     <!-- Introduction -->
+     <h1>Hi, I'm Evan Petelle</h1>
+       <p>I am a marketing student learning to code so I can build more <em>effective</em> websites.</p>
+    
+       <h2>Hobbies</h2>
+       <ul>
+         <li>Running</li>
+         <li>Watching movies</li>
+         <li>Reading</li>
+       </ul>
+       <!-- Social Links -->
+       <h2>Connect with me!</h2>
+       <p> 
+         <a href="https://github.com/evanpetelle" target="_blank">GitHub</a> |
+         <a href="https://www.linkedin.com/in/evan-petelle/" target="_blank">Linkedin</a>
+       </p>
+   </div>
+ </body>
+ </html>
+
+/* Body Style */
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #e0e0e0;
+  color: #333; 
+  margin: 0;
+  padding: 0;
+}
+
+/* Container Style */
+.container {
+  max-width: 800px; 
+  margin: 50px auto;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* Links */
+a {
+  color: #9b59b6;
+  text-decoration: none; 
+}
+a:hover {
+  text-decoration: underline;
+  color: #8e44ad;
+}
+ul {
+  list-style: disc;               
+  list-style-position: inside;    
+  padding: 0;
+  margin: 0 auto;
+  text-align: left;
+  display: inline-block;          
+}
+
+li {
+  margin: 5px 0;                 
+  font-size: 18px;             
+}
