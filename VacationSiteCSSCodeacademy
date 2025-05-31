@@ -1,0 +1,32 @@
+/* Font Switch */ 
+h1, h2, p, li {
+font-family: Helvetica;
+}
+
+/* Style For Image */
+img {
+  height: 150px;
+}
+
+/* Description Text Font Size */
+.description {
+  font-size: 20px;
+}
+
+/* Recipe Time Estimation */
+#cook-time {
+  font-weight: bold;
+}
+
+/* Square 'Bullet Points */
+.ingredients li {
+  list-style: square;
+}
+
+p.time {
+  color: gray;
+}
+
+.external-link {
+  color: SeaGreen;
+}
