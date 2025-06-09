@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tea Cozy</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <header>
+    <img src="https://content.codecademy.com/courses/freelance-1/unit-4/img-tea-cozy-logo.png" alt="Tea Cozy written in elegant white cursive script on a transparent background, conveying a cozy and inviting mood">
+    <nav>
+      <a href="#">Mission</a>
+      <a href="#">Featured Tea</a>
+      <a href="#">Locations</a>
+    </nav>
+  </header>
+  <main>
+    <div class="main-text">
+      <h2>Our Mission</h2>
+      <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
+    </div>
+  </main>
+  <section class="tea-of-the-month">
+    <h2>Tea of the Month</h2>
+    <h4>What’s Steeping at The Tea Cozy?</h4>
+    <div>
+      <img src="https://content.codecademy.com/courses/freelance-1/unit-4/img-berryblitz.jpg" alt="A gray mug filled with dark tea, topped with several red berries and dried fruit, sitting on a light wooden surface in soft, warm lighting, creating a cozy and inviting atmosphere">
+      <h4>Fall Berry Blitz Tea</h4>
+    </div>
+    <div>
+      <img src="https://content.codecademy.com/courses/freelance-1/unit-4/img-spiced-rum.jpg" alt="A clear glass mug filled with dark amber tea sits on a wooden table, garnished with a cinnamon stick and star anise, surrounded by scattered loose tea leaves and spices. The setting is warm and rustic, evoking a cozy and inviting mood.">
+      <h4>Spiced Rum Tea</h4>
+    </div>
+    <div>
+      <img src="https://content.codecademy.com/courses/freelance-1/unit-4/img-donut.jpg" alt="A golden brown donut dusted with powdered sugar sits on a white rectangular plate, placed on a lace doily in a softly lit, cozy setting. In the background, a blurred sign with text adds to the inviting and warm atmosphere.">
+      <h4>Seasonal Donuts</h4>
+    </div>
+    <div>
+      <img src="https://content.codecademy.com/courses/freelance-1/unit-4/img-myrtle-ave.jpg" alt="A white teacup filled with amber tea and a tea bag sits on a round wooden table, partially covered by a sheer white curtain, with soft natural light creating a calm and cozy atmosphere">
+      <h4>Myrtle Ave Tea</h4>
+    </div>
+    <div>
+      <img src="https://content.codecademy.com/courses/freelance-1/unit-4/img-bedford-bizarre.jpg" alt="A clear glass teapot filled with amber tea sits on a rustic wooden table next to a matching glass teacup, surrounded by soft natural light and a cozy, inviting atmosphere">
+      <h4>Bedford Bizarre</h4>
+    </div>
+  </section>
+</body>
+</html>
